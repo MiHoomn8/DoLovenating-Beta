@@ -6,20 +6,6 @@
     font-family: "Crimson Text";
 }
 
-/* body até @media*/
-
-body {
-    background-color: var(--background-color);
-    color: var(--text-color);
-}
-
-@media (prefers-color-scheme: dark), (prefers-color-scheme: light) {
-    body {
-        background-color: var(--background-color);
-        color: var(--text-color);
-    }
-}
-
 h1 {
     color: #56376a;
     font-size: 25px;
