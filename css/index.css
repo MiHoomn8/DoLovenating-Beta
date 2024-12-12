@@ -26,7 +26,7 @@ h1 {
 div.configuracoes a button.engrenagem {
     width: 25px;
     height: 25px;
-    background-image: url('/img/engrenagem.jpeg');
+    background-image: url('../img/engrenagem.jpeg');
     background-size: cover;
     background-position: center center;
     border: 2px solid #efe6f3;
@@ -39,7 +39,7 @@ div.configuracoes a button.engrenagem {
 div.logo {
     width: 180px;
     height: 180px;
-    background-image: url('/img/logo.jpeg');
+    background-image: url('../img/logo.jpeg');
     background-size: cover;
     background-position: center center;
     border-radius: 80%;
