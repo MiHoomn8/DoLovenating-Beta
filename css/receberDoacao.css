@@ -78,6 +78,7 @@ div div div a img.local{
 }
 
 div a .box {
+    position: relative;
     width: 140px;
     height: 195px;
     background-color: #ffffff;
@@ -88,6 +89,7 @@ div a .box {
     font-size: 14px;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
 }
 
 a {
@@ -102,3 +104,10 @@ a {
     opacity: 0;
 }
 
+.image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 160px;
+    height: 160px; 
+}
