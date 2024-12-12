@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/login.css" />
+    <title>DoLovenating Beta</title>
+  </head>
+  <body>
+    <h1>DoLovenating</h1>
+
+    <div class="background">
+      <div><h2 class="conta">Crie sua conta</h2></div>
+
+      <div>
+        <div>
+          <input
+            type="text"
+            class="input-text"
+            size="27"
+            placeholder="Nome:"
+            required
+          />
+        </div>
+
+        <div>
+          <input
+            type="number"
+            class="input-text-number"
+            size="27"
+            pattern="[0-9]{2}-[0-9]{5}-[0-9]{4}"
+            placeholder="Telefone: (xx) xxxxx xxxx"
+            required
+          />
+        </div>
+
+        <div>
+          <input
+            type="text"
+            class="input-text"
+            size="27"
+            placeholder="Endereço:"
+            required
+          />
+        </div>
+
+        <div>
+          <input
+            type="number"
+            class="input-text-number"
+            size="27"
+            pattern="[0-9]{5}-[0-9]{3}"
+            placeholder="CEP: xxxxx-xxx"
+            required
+          />
+        </div>
+
+        <div>
+          <input
+            type="number"
+            class="input-text-number"
+            size="27"
+            placeholder="CPF: xxx xxx xxx xx"
+            required
+          />
+        </div>
+
+        <div>
+          <input
+            type="date"
+            class="input-text-date"
+            size="27"
+            minlength="10"
+            placeholder="Data de nascimento: dd/mm/aaaa"
+            required
+          />
+        </div>
+
+        <div>
+          <input
+            type="email"
+            class="input-text"
+            size="27"
+            pattern=".+@example/.com"
+            placeholder="Email:"
+            required
+          />
+        </div>
+        <div>
+          <input
+            type="password"
+            class="input-text"
+            size="27"
+            maxlength="30"
+            minlength="8"
+            placeholder="Senha:"
+            required
+          />
+        </div>
+
+        <div>
+          <div>
+            <a href="./home.html">
+              <button class="criar">Criar</button>
+            </a>
+            <a href="./index.html">
+              <button class="voltar">Voltar</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

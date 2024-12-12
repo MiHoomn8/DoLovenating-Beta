@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap");
+
+body {
+  font-family: "Crimson Text";
+  background-color: #efe6f3;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  color: #56376a;
+  font-size: 25px;
+  font-style: italic;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.conta {
+  color: #56376a;
+  font-size: 22px;
+  font-style: italic;
+  text-align: center;
+  padding: 25px;
+}
+
+.background {
+  background-color: #ffffff;
+  width: 272px;
+  height: 570px;
+  border-radius: 10px;
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo .circle {
+  width: 30px;
+  height: 30px;
+  background-image: url('/img/usuario.jpeg');
+  background-size: cover;
+  background-position: center center;
+  border: 1px solid #3f2153;
+  border-radius: 70px 70px 70px 70px;
+  cursor: pointer;
+  position: relative;
+  top: 15px;
+  margin-left: 15px;
+}
+
+.usuario {
+  color: #3f2153;
+  width: 10px;
+  height: 10px;
+  margin-left: 35px;
+  position: relative;
+  cursor: pointer;
+  top: 5px;
+}
+
+#photo {
+  width: 100px;
+  height: 100px;
+  background-image: url('/img/camera.jpeg');
+  background-size: cover;
+  background-position: center center;
+  border: 1px solid #d0b5d4;
+  margin-top: 75px;
+  margin-inline: auto;
+  display: block;
+}
+
+.text {
+  color: #9988aa;
+  background-color: #f6f6f8;
+  font-size: 13px;
+  font-style: italic;
+  text-align: start;
+  border: 1px solid #7b6888;
+  padding: 7px;
+  padding-left: 12px;
+  padding-right: 14px;
+  margin-top: 53px;
+  margin-left: 20px;
+  margin-right: 11px;
+}
+
+#text-2 {
+  color: #9988aa;
+  background-color: #f6f6f8;
+  font-size: 13px;
+  font-style: italic;
+  text-align: start;
+  border: 1px solid #7b6888;
+  padding: 7px;
+  padding-left: 15px;
+  padding-bottom: 150px;
+  margin-top: 9px;
+  margin-left: 20px;
+  margin-right: 10px;
+  display: block;
+}
+
+.enviar {
+  color: #56376a;
+  background-color: #ebdef0;
+  font-size: 18px;
+  font-family: "Crimson Text";
+  cursor: pointer;
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+  margin-left: 204px;
+  margin-top: 38px;
+  padding: 3px;
+  border: 1px solid #7b6888;
+  box-shadow: 1px 1px 1px;
+}
+
+.enviar:active {
+  box-shadow: 0 0 0 0 #7b6888, inset 2px 2px 2px #7b6888;
+  transform: translate(1px, 1px);
+}
+
+.voltar {
+  color: #56376a;
+  background-color: #ebdef0;
+  font-size: 18px;
+  font-family: "Crimson Text";
+  cursor: pointer;
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 1px;
+  margin-right: 50px;
+  margin-left: 120px;
+  padding: 3px;
+  position: relative;
+  top: -32px;
+  left: 25px;
+  border: 1px solid #7b6888;
+  box-shadow: 1px 1px 1px;
+}
+
+.voltar:active {
+  box-shadow: 0 0 0 0 #7b6888, inset 2px 2px 2px #7b6888;
+  transform: translate(1px, 1px);
+}
+
+::-webkit-input-placeholder {
+  color: #9988aa;
+}
+
+.avatar {
+  opacity: 0;
+}

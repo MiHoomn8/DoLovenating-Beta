@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap");
+
+body {
+  font-family: "Crimson Text";
+  background-color: #efe6f3;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  color: #56376a;
+  font-size: 25px;
+  font-style: italic;
+  text-align: center;
+  padding-top: 10px;
+}
+
+div h2.conta {
+  color: #56376a;
+  font-size: 22px;
+  font-style: italic;
+  text-align: center;
+  padding: 25px;
+}
+
+div.background {
+  background-color: #ffffff;
+  width: 272px;
+  height: 570px;
+  border-radius: 10px;
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div input.input-text {
+  width: 230px;
+  height: 30px;
+  color: #9988aa;
+  background-color: #f6f6f8;
+  font-size: 13px;
+  font-style: italic;
+  border: 1px solid #7b6888;
+  padding: 7px 7px 7px 15px;
+  margin: 10px 20px 0 20px;
+}
+
+div a button.criar-2 {
+  color: #56376a;
+  background-color: #ebdef0;
+  font-size: 18px;
+  font-family: "Crimson Text";
+  cursor: pointer;
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 122px;
+  margin-right: 25px;
+  margin-left: 205px;
+  padding: 3px;
+  border: 1px solid #7b6888;
+  box-shadow: 1px 1px 1px;
+}
+
+.criar-2 .volttar-2:active {
+  box-shadow: 0 0 0 0 #7b6888, inset 2px 2px 2px #7b6888;
+  transform: translate(1px, 1px);
+}
+
+div a button.voltar-2 {
+  color: #56376a;
+  background-color: #ebdef0;
+  font-size: 18px;
+  font-family: "Crimson Text";
+  cursor: pointer;
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 1px;
+  margin-right: 50px;
+  margin-left: 144px;
+  padding: 3px;
+  position: relative;
+  top: -32px;
+  border: 1px solid #7b6888;
+  box-shadow: 1px 1px 1px;
+}
+
+.voltar-criar {
+  position: relative;
+  top: 240px;
+  right: 3px;
+}
+
+::-webkit-input-placeholder {
+  color: #9988aa;
+}

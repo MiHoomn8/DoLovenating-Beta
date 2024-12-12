@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap");
+
+* {
+  margin: 0;
+  background-color: #efe6f3;
+  font-family: "Crimson Text";
+}
+
+h1 {
+  color: #56376a;
+  font-size: 25px;
+  font-style: italic;
+  text-align: center;
+  padding-top: 10px;
+}
+
+
+.conta {
+  color: #56376a;
+  font-size: 22px;
+  font-style: italic;
+  text-align: center;
+  padding: 25px;
+}
+
+.background {
+  background-color: #ffffff;
+  width: 272px;
+  height: 570px;
+  border-radius: 10px;
+  margin-top: 60px;
+  margin-inline: auto;
+}
+
+h2 {
+  color: #56376a;
+  font-size: 22px;
+  font-style: italic;
+  text-align: center;
+  padding-top: 20px;
+  margin-top: 50px;
+}
+
+#logo {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  display: block;
+  border: 2px solid #56376a;
+  border-radius: 50%;
+  cursor: none;
+  margin-top: 90px;
+  margin-inline: auto;
+}
+
+h3 {
+  font-style: italic;
+  text-align: center;
+}
+
+div h3 a button {
+  font-size: 25px;
+  width: 88px;
+  height: 38px;
+  cursor: pointer;
+  background-color: #ebdef0;
+  font-weight: bold;
+  font-style: italic;
+  color: #56376a;
+  margin-bottom: 20px;
+  border: 1px solid #7b6888;
+  box-shadow: 1px 1px 1px;
+}
+
+div h3 a button:active {
+  box-shadow: 0 0 0 0 #7b6888, inset 2px 2px 2px #7b6888;
+  transform: translate(1px, 1px);
+}
+
+div h3 a button.receber {
+  height: 80px;
+}
+
+div h3 a button.doar {
+  margin-top: 60px;
+}

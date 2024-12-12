@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap");
+
+* {
+    margin: 0;
+    background-color: #efe6f3;
+    font-family: "Crimson Text";
+}
+
+h1 {
+    color: #56376a;
+    font-size: 25px;
+    font-style: italic;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.background {
+    background-color: #ffffff;
+    width: 272px;
+    height: 570px;
+    border-radius: 10px;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.input-text {
+    color: #9988aa;
+    background-color: #f6f6f8;
+    font-size: 15px;
+    font-style: italic;
+    text-align: start;
+    border: 1px solid #7b6888;
+    padding: 7px;
+    padding-left: 20px;
+    padding-right: 65px;
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-right: 20px;
+    margin-bottom: 12px;
+  }
+
+  .lupa {
+    width: 20px;
+    height: 20px;
+    background-image: url('../img/lupa.jpeg');
+    background-size: cover;
+    background-position: center center;
+    border: 2px solid #f6f6f8;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-left: 240px;
+    position: relative;
+    top: -45px;
+  }
+
+.container {
+    display: flex;
+    gap: 10px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+div div div a img.local{
+  width: 20px;
+  height: 20px;
+  background-size: cover;
+  background-position: center center;
+  border: auto;
+  border-radius: 80%;
+  margin-right: 3px;
+  margin-bottom: 3px;
+}
+
+div a .box {
+    width: 140px;
+    height: 195px;
+    background-color: #ffffff;
+    color: #3f2153;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    font-size: 14px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+a {
+    text-decoration: none;
+}
+
+.box {
+    transition: visibility 0.2s ease, opacity 0.2s ease;
+    opacity: 1;
+}
+.box[style*="visibility: hidden"] {
+    opacity: 0;
+}
+

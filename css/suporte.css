@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap");
+
+body {
+    font-family: "Crimson Text";
+    background-color: #efe6f3;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  color: #56376a;
+  font-size: 25px;
+  font-style: italic;
+  text-align: center;
+  padding-top: 10px;
+}
+
+h2 {
+  color: #56376a;
+  font-size: 22px;
+  font-style: italic;
+  text-align: center;
+  padding: 25px;
+}
+
+.background {
+  background-color: #ffffff;
+  width: 272px;
+  height: 570px;
+  border-radius: 10px;
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.suporte {
+  color: #56376a;
+  font-size: 17px;
+  text-align: center;
+  margin-right: 5px;
+  margin-top: 30px;
+  padding: 0 1px 0 1px;
+  padding-bottom: 20px;
+}
+
+.email {
+  color: #56376a;
+  font-size: 17px;
+  text-align: center;
+  margin-right: 5px;
+  margin-top: 10px;
+}
+
+.email:link {
+  color: #56376a;
+  text-decoration: none;
+}
+
+.email:hover {
+  color: #a74ce3;
+  text-decoration: underline;
+}
+
+.equipe {
+  color: #56376a;
+  font-size: 17px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.logo .circle {
+  width: 90px;
+  height: 90px;
+  background-image: url('../img/logo.jpeg');
+  background-size: cover;
+  border: 2px solid #56376a;
+  border-radius: 80%;
+  background-position: center center;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: none;
+}

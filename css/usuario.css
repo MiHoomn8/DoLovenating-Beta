@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap");
+
+body {
+    font-family: "Crimson Text";
+    background-color: #efe6f3;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  color: #56376a;
+  font-size: 25px;
+  font-style: italic;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.conta {
+  color: #56376a;
+  font-size: 22px;
+  font-style: italic;
+  text-align: center;
+  padding: 25px;
+}
+
+.background {
+  background-color: #ffffff;
+  width: 272px;
+  height: 570px;
+  border-radius: 10px;
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.input-text {
+  color: #9988aa;
+  background-color: #f6f6f8;
+  width: 227px;
+  height: 33px;
+  font-size: 13px;
+  font-style: italic;
+  text-align: start;
+  border: 1px solid #7b6888;
+  padding: 4px;
+  padding-left: 14px;
+  cursor: not-allowed;
+  margin-top: 9px;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+.editar {
+  color: #56376a;
+  background-color: #ebdef0;
+  font-size: 18px;
+  font-family: "Crimson Text";
+  cursor: pointer;
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 108px;
+  margin-left: 208px;
+  padding: 3px;
+  border: 1px solid #7b6888;
+  box-shadow: 1px 1px 1px;
+}
+
+.editar .voltar:active {
+  box-shadow: 0 0 0 0 #7b6888, inset 2px 2px 2px #7b6888;
+  transform: translate(1px, 1px);
+}
+
+.voltar {
+  color: #56376a;
+  background-color: #ebdef0;
+  font-size: 18px;
+  font-family: "Crimson Text";
+  cursor: pointer;
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 1px;
+  margin-right: 50px;
+  margin-left: 147px;
+  padding: 3px;
+  position: relative;
+  top: -32px;
+  border: 1px solid #7b6888;
+  box-shadow: 1px 1px 1px;
+}
+
+
